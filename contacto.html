@@ -10,18 +10,17 @@
     <h1>Bienvenido a la Pagina para contactarme!</h1>
     <h2>Favor de completar todos los campos para poder contactarme.</h2>
 
-    <form >
+    <form action="#" method="get">
       <fieldset>
         <legend>Campos a completar : </legend>
-
-        <label>Nombre</label>
-        <input type="text" placeholder="Nombre">
-        <label>Telefono</label>
-        <input type="tel" placeholder="Numero">
-        <label>Mail</label>
-        <input type="email" placeholder="E-mail">
-        <label>Dudas en especifico: </label>
-        <textarea></textarea>
+        <label for="name">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="telefono" placeholder="Numero">
+        <label for="eMail">Mail</label>
+        <input type="email" name="eMail" placeholder="E-mail">
+        <label for="textArea">Dudas en especifico: </label>
+        <textarea placeholder="Escribe lo que quieras."></textarea>
         <input type="submit" value="Enviar">
       </fieldset>
     </form>
