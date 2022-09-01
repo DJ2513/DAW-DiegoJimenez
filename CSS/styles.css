@@ -12,3 +12,12 @@ ul{
     color:plum;
     font-family: 'Courier New', Courier, monospace;
 }
+.table{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.input[type=number]{
+    color: blue;
+}
