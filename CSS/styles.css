@@ -1,0 +1,14 @@
+ul{
+    background-color: darkblue;
+    color: antiquewhite;
+    font-size: x-large;
+}
+.import_list{
+    background-color: red;
+    font-weight: bold;
+}
+#list_of_movies{
+    background-color: green;
+    color:plum;
+    font-family: 'Courier New', Courier, monospace;
+}
