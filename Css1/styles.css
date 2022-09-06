@@ -1,0 +1,25 @@
+/* Global */
+div{
+    width:200px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+/* Containers */
+.top-container{
+    background-color: blue;
+    border: 10px solid black;
+    padding: 20px;
+}
+.mid-container{
+    background-color: red;
+    border: 20px solid black; 
+    /*margin-left: 200px;*/
+    position: sticky;
+}
+.bottom-container{
+    background-color: yellow;
+    border: 10px solid black;
+    margin-left: 200px;
+}
