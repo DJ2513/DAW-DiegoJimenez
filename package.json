@@ -1,0 +1,19 @@
+{
+  "name": "sample-node",
+  "version": "0.0.1",
+  "description": "Sample excercise to showcase the use of npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "author": "djontiveros2728",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJ2513/prueba/issues"
+  },
+  "homepage": "https://github.com/DJ2513/prueba#readme",
+  "dependencies": {
+    "star-wars-quotes": "^1.0.2"
+  }
+}
