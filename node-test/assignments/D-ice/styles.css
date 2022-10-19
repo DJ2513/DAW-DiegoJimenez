@@ -1,0 +1,35 @@
+:root{
+  --rojo: #fa4753;
+  --negro: #17181C;
+  --blanco:#FFF;
+  --azulGrisaseo: #9BA5C9;
+  --fuentePrincipal: 'Lobster', cursive;
+  --fuenteSecundaria:'Indie Flower', cursive;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+h1 {
+  font-family: var(--fuentePrincipal);
+  margin: 30px;
+  font-size: 8rem;
+}
+
+p {
+  font-family: var(--fuenteSecundaria);
+  font-size: 2rem;
+}
+
+img {
+  width: 80%;
+}
